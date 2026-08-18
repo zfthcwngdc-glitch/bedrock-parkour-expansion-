@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.player.parkour": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            { "sliding": "query.is_sneaking" }
+          ]
+        },
+        "sliding": {
+          "animations": [ "slide" ],
+          "transitions": [
+            { "default": "!query.is_sneaking" }
+          ]
+        }
+      }
+    }
+  }
+}
+
