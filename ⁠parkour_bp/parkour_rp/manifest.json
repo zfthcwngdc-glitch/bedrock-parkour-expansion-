@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Bedrock Parkour Expansion (RP)",
+    "description": "Custom animations, UI elements, and particles for the parkour system.",
+    "uuid": "d4e5f6a7-b8c9-0d1e-2f3a-4b5c6d7e8f9a",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 50]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "e5f6a7b8-c9d0-1e2f-3a4b-5c6d7e8f9a0b",
+      "version": [1, 0, 0]
+    }
+  ]
+}
+
