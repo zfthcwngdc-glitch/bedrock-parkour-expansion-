@@ -1,0 +1,10 @@
+{
+  "resource_pack_name": "parkour_rp",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "parkour_icon": {
+      "textures": "textures/items/parkour_icon"
+    }
+  }
+}
+
