@@ -1,1 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Bedrock Parkour Expansion (BP)",
+    "description": "Custom movement mechanics, wall-running, and sliding systems for Bedrock Edition.",
+    "uuid": "a1b2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 50]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.11.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.3.0"
+    },
+    {
+      "uuid": "d4e5f6a7-b8c9-0d1e-2f3a-4b5c6d7e8f9a",
+      "version": [1, 0, 0]
+    }
+  ]
+}
 
